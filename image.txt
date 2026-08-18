@@ -1,0 +1,5 @@
+images/
+└── business.jpg
+
+<img src="images/business.jpg"
+     alt="ทีมงานพัฒนาเว็บไซต์">
