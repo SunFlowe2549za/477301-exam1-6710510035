@@ -1,0 +1,97 @@
+*{
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    line-height:1.6;
+    background:gainsboro;
+    color:black;
+    margin:0;
+}
+
+header{
+    background:blue;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+
+nav ul{
+    list-style:none;
+    padding:0;
+}
+
+nav li{
+    display:inline;
+    margin:0 10px;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+}
+
+#about,
+#services,
+#contact{
+    padding:20px;
+}
+
+.card{
+    padding:20px;
+    margin:20px;
+    border:1px solid #ddd;
+    border-radius:10px;
+    background:white;
+}
+
+.card:hover{
+    transform:translateY(-5px);
+}
+
+table{
+    width:100%;
+    border-collapse:collapse;
+}
+
+table,th,td{
+    border:1px solid #999;
+}
+
+th,td{
+    padding:10px;
+}
+
+th{
+    background:lightblue;
+}
+
+form{
+    padding:20px;
+}
+
+input{
+    display:block;
+    margin-bottom:10px;
+    padding:8px;
+}
+
+button{
+    background:blue;
+    color:white;
+    border:none;
+    padding:10px 15px;
+    border-radius:5px;
+}
+
+button:hover{
+    background:navy;
+}
+
+footer{
+    background:blue;
+    color:white;
+    text-align:center;
+    padding:15px;
+}
